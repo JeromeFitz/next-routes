@@ -27,25 +27,21 @@
     ]
   },
   "dependencies": {
-    "path-to-regexp": "^1.7.0"
-  },
-  "peerDependencies": {
-    "next": "^2.0.0 || ^3.0.1-beta",
-    "react": "^15.4.2"
+    "path-to-regexp": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "babel-jest": "^20.0.3",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.5.2",
     "concurrently": "^3.5.0",
     "coveralls": "^2.13.1",
     "del-cli": "^1.1.0",
-    "jest": "^20.0.4",
-    "next": "^2.4.7",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1",
+    "jest": "^21.2.0",
+    "next": "latest",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.0.0",
     "standard": "^10.0.2"
   },
   "author": "fridays",
