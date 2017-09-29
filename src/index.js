@@ -125,7 +125,7 @@ class Route {
     this.page = page.replace(/(^|\/)index$/, '').replace(/^\/?/, '/')
     this.regex = pathToRegexp(this.pattern, this.keys = [])
     this.keyNames = this.keys.map(key => key.name)
-    this.toPath = () => pathToRegexp.compile(this.pattern)
+    this.toPath = pathToRegexp.compile(this.pattern)
   }
 
   match (path) {
